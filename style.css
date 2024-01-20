@@ -1,5 +1,5 @@
 * {
-    background-color: pink;
+  background-color: pink;
 }
 
 h1 {
@@ -26,9 +26,43 @@ h1 {
 }
 
 .heading {
-    color: red;
+  color: red;
 }
 
 button {
-    background-color: green;
+  background-color: green;
+}
+#hello {
+  background-color: pink;
+}
+
+h2 {
+  color: rgb(70, 122, 56);
+}
+
+#one {
+  color: aquamarine;
+}
+.two {
+  color: bisque;
+}
+#wow {
+  color: blue;
+}
+
+#good {
+  color: brown;
+}
+
+#id {
+  background-color: blue;
+  color: black;
+}
+
+.head {
+  color: red;
+}
+
+btn {
+  background-color: green;
 }
