@@ -1,0 +1,70 @@
+* {
+    background-color: black;
+}
+h1 {
+    background-color: red;
+    text-align: center;
+    text-transform: capitalize;
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+    display: inline;
+}
+
+p {
+    color: yellow;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#outer{
+    color: yellow;
+    font-size: 25px;
+}
+
+#inner {
+    color: blue;
+    font-size: 10px;
+}
+
+#myDiv {
+    color: white;
+    background-color: orange;
+    /* default height is 50px */
+    height: 50px;
+    /* defailt width is 50px */
+    width: 50px;
+    /* border */
+    border-width: 2px;
+
+    /* style in border line */
+    /* border-style: solid; */
+    /* border-style: dotted; */
+    border-style: dashed;
+
+    /* color black */
+    border-color:green ;
+
+    /* shortcut */
+    border: 2px dashed green;
+
+    padding: 10px;
+
+    /* space between object */
+    margin: 10px;
+    border-radius: 50%;
+}
+
+#tryDiv {
+    color: white;
+    background-color: aquamarine;
+    height: 60px;
+}
+button {
+    display: block;
+    background-color: orange;
+    color: white;
+}
+#logo {
+    background-color: orange;
+    font-size: 25px;
+}
