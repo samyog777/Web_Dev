@@ -1,0 +1,53 @@
+div {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;   
+    border: 2px solid black;
+    display: inline-block;
+}
+/* body {
+    background-image: url(horse.jpg);
+    background-size: contain;
+} */
+#box1 {
+    position: static;
+    background-color: red;
+    background-image: url(horse.jpg);
+    background-size: cover;
+}
+
+#box2 {
+    position: relative;
+    top: 50px;
+    right: 20px;
+    background-color: blue;
+    z-index: 1;
+}
+
+#box3 {
+    position: absolute;
+    top: 1000px;
+    background-color: green;
+}
+
+#box4 {
+    position: fixed;
+    top: 0px;
+    z-index: 2;
+}
+
+#box5 {
+    position: sticky;
+    background-color: yellowgreen;
+    float: right;
+    top: 0px;
+    right: 50px;
+    background-image: url(horse.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+p{
+    position: relative;
+    z-index: 4;
+}
