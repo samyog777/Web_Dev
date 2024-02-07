@@ -1,0 +1,41 @@
+.navBar {
+  background-color: red;
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  list-style: none;
+  background-color: orange;
+}
+
+.inner {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  align-self: flex-start;
+}
+
+.outer {
+  height: 400px;
+  width: 400px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 600px) {
+  .navBar {
+    background-color: orange;
+    justify-content: space-evenly;
+  }
+  li {
+    background-color: red;
+  }
+}

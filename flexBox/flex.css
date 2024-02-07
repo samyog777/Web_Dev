@@ -7,11 +7,10 @@ div {
   width: 50px;
   display: inline-block;
   border: 5px solid black;
-  border: 5px solid black;
 }
 
 #container {
-  height: 300px;
+  height: 500px;
   width: 700px;
   display: flex;
   flex-direction: row;
@@ -30,13 +29,14 @@ div {
   background-color: red;
   height: 200px;
   /* align-self: flex-end; */
-  /* flex-shrink: 1; */
+  flex-shrink: 0.5;
   flex-grow: 2;
 }
 
 #box3 {
   background-color: aquamarine;
   height: 75px;
+  /* flex-shrink: 0; */
 }
 
 #box4 {
