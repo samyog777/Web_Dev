@@ -1,0 +1,20 @@
+.loader {
+     /* background-color: red; */
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 20px solid #F5F749;
+    border-top: 20px solid #2E86AB;
+    border-bottom: 20px solid #2E86AB;
+    animation: loader 2s linear 0s infinite normal;
+    transform: rotate(360deg);
+}
+
+@keyframes loader {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
