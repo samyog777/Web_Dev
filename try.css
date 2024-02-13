@@ -27,3 +27,23 @@
     /* display: none; */
     visibility: hidden;
 }
+
+.hey {
+    height: 100px;
+    width: 200px;
+    background-color: aquamarine;
+}
+
+.hello {
+    color: blue;
+}
+
+.hi {
+    color: green;
+}
+.haha {
+    color: brown;
+}
+.sam {
+    text-align: center;
+}
