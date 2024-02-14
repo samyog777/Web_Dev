@@ -1,21 +1,32 @@
+#nature, p {
+  font-size: 20px;
+  color: mediumpurple;
+  border: 20px blue solid;
+  background-color: black; }
+
 * {
   background-color: black;
-  color: blue; }
+  color: white; }
 
 div {
   height: 50vh;
   width: 30vw;
   background-image: url(ronaldo_jodi.jpeg);
   background-size: cover; }
+  div p {
+    background-color: red;
+    font-size: 20px; }
 
 #nature {
+  color: white;
   position: fixed;
   right: 0px;
   bottom: 0px;
   z-index: 10;
-  border-radius: 200px; }
+  border-radius: 20px; }
 
 p {
+  background-color: white;
   position: relative;
   height: 50vw;
   width: 50vh; }
