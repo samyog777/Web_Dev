@@ -1,0 +1,28 @@
+$color : black;
+$col: blue;
+
+*{
+    background-color: $color;
+    color: $col;
+}
+div {
+    height: 50vh;
+    width: 30vw;
+    background-image: url(ronaldo_jodi.jpeg);
+    background-size: cover;
+}
+
+#nature {
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    z-index: 10;
+    border-radius: 200px;
+}
+
+p {
+    position: relative;
+    height: 50vw;
+    width: 50vh;
+}
+
