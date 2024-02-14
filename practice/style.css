@@ -1,0 +1,25 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    background-color: black;
+}
+
+.hi{
+    font-size: 1.2rem;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: grey;
+}

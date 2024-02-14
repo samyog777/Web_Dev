@@ -12,7 +12,6 @@
     background-color: aquamarine;
 }
 
-
 #first,#second,#third {
     background-color: black;
     margin: 10px;
@@ -41,9 +40,12 @@
 .hi {
     color: green;
 }
+
 .haha {
     color: brown;
 }
+
 .sam {
     text-align: center;
 }
+
