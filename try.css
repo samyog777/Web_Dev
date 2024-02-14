@@ -1,7 +1,7 @@
-/* * {
+* {
     background-color: black;
     color: white;
-} */
+}
 
 #task4 {
     background-color: aquamarine;
@@ -24,7 +24,7 @@
 }
 
 #second {
-    /* display: none; */
+    display: none;
     visibility: hidden;
 }
 
