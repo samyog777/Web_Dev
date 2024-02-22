@@ -1,0 +1,100 @@
+
+.tion {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+}
+
+.try {
+        transform: translate(50px, 100px); /* For making div move horizontally and vertically  --> where 50px right and 100px down*/ 
+            transform: translateX(50px); /* For x manually */
+            transform: translateY(100px); /* For Y manually */
+        transform: rotate(20deg); /* For making div rotate in same position --> where 20deg or we can use -20deg*/
+        transform: scale(2, 0.5); /* Making size of div change --> where 2* width and 0.5* height*/
+            transform: scaleX(2); /* Making the div 2* of its width */
+            transform: scaleY(3); /* making height of div 3* of height */
+        transform: skew(20deg, 10deg); /* Creating skewness of the div x and y respectively */
+            transform: skewX(20deg); /* For X only */
+            transform: skew(10deg); /* For Y only */
+    transform: matrix(1, -0.3, 0, 1, 0, 0); /* syntax: matrix(scaleX(), skewY(), skewX(), scaleY(), translateX(), translateY()) */
+}
+
+.hello {
+    transform: scale(2, 3); transform: scaleY(3); transform: scaleX(2); 
+    transform: skew(20deg, 10deg); transform: skewY(10deg); transform: skewX(20deg);
+    transform: rotate(20deg);
+    transform: scale(3, 4); transform: scaleX(3); transform: scaleY(2);
+    transform: matrix(2, 3, 4, 5, 2, 3)
+}
+
+.transition {
+    width: 100px;
+    height: 100px;
+    float: left;
+    background-color: green;
+}
+
+.transition:hover {
+    width: 400px;
+    height: 600px;
+}
+
+.float {
+    margin-left: 20px;
+    float: left;
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    clear: right;
+}
+
+/* ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+} */
+
+ul {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: right;
+    list-style-type: none;
+    background-color: #333;
+}
+
+li {
+    padding: 14px 16px;
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+}
+
+li:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: red;
+}
