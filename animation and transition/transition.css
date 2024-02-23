@@ -71,7 +71,7 @@ li a {
 li a:hover {
     background-color: #111;
 } */
-
+/* 
 ul {
     margin: 0;
     padding: 0;
@@ -97,4 +97,19 @@ li:hover {
 
 .active {
     background-color: red;
+} */
+
+ul {
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: inline-block;
+    color: white;
 }

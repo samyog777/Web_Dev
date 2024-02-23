@@ -1,0 +1,29 @@
+
+.head {
+    background-color: grey;
+    font-size: 60px;
+    padding: 30px;
+    font-weight: 700;
+}
+
+.contents {
+    display: flex;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    background-color: red;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+}
+
+.foot {
+    background-color: grey;
+    font-size: 50px;
+    font-weight: 700;
+    padding: 30px;
+}

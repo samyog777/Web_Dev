@@ -1,0 +1,60 @@
+/* 
+* {
+    box-sizing: border-box;
+}
+
+.images {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.float-left {
+  float: left;
+  width: 50%;
+  background-color: lightblue;
+}
+
+.float-right {
+  float: right;
+  width: 50%;
+  background-color: lightcoral;
+}
+ */
+
+.float-left {
+  float: left;
+  width: 50%;
+  background-color: lightblue;
+}
+
+.float-right {
+  float: right;
+  width: 50%;
+  background-color: lightcoral;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.float-left {
+  float: left;
+  width: 50%;
+  background-color: lightblue;
+}
+
+.float-right {
+  float: right;
+  width: 50%;
+  background-color: lightcoral;
+}
+
