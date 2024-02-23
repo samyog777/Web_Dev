@@ -1,0 +1,80 @@
+.hello:hover > p {
+    background-color: red;
+    color: black;
+}
+
+/* For selecting first p tags after each div */
+div + p {
+    color: blue;
+    background-color: green;
+}
+
+/* For selecting all the p tags after each .hello class */
+.hello ~ p {
+    color: red;
+    background-color: blue;
+}
+
+button:hover {
+    background-color: green;
+    color: wheat;
+}
+
+button:active {
+    background-color: red;
+    color: black;
+}
+
+.hide p{
+    display: none;
+    color: black;
+    padding: 20px;
+    background-color: aquamarine;
+}
+
+.hide:hover p{
+    display: block;
+}
+
+.text p i:first-child {
+    color: red;
+}
+
+q:lang(no) {
+    quotes: "*fyou " " *Fyou";
+    background-color: skyblue;
+}
+
+#h3::first-line {
+    color: red;
+}
+
+#second::first-letter {
+    color: blue;
+}
+
+#Old_book::first-letter {
+    font-size: xx-large;
+}
+
+#Old_book::first-line {
+    font-size: medium;
+}
+
+/* Put this content after html's contents */
+.btn::after{
+    content: url(image.avif);
+}
+
+/* For selecting the text */
+::selection {
+    background-color: pink;
+    color: red;
+}
+
+.img {
+    opacity: 1;
+}
+.img:hover {
+    opacity: 0.5;
+}

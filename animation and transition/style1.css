@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    background-color: rgb(204, 197, 197);
+    height: 100%;
+    width: 25%;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    position: fixed;
+}
+
+.other {
+    margin-left: 25%;
+    padding: 1px 16px;
+    height: 1000px;
+}
+
+ul li a{ 
+    text-decoration: none;
+    display: block;
+    padding: 8px 16px;
+    border-bottom: 1px solid red;
+}
+
+li a:hover {
+    background-color: green;
+}
+
+.active {
+    background-color: red;
+}
