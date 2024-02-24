@@ -1,0 +1,11 @@
+input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    box-sizing: border-box;
+}
+
+input[type=text]:focus {
+    background-color: #6ABF8C;
+}
+
